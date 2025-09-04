@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Thẻ Ngữ pháp N3</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+   <!-- Thanh nhập giá trị + tìm kiếm -->
+   <div class="controls">
+      <label>Bắt đầu: <input type="number" id="start" value="1" min="1" /></label>
+      <label>Kết thúc: <input type="number" id="end" value="10" max="10" /></label>
+      <button id="renderBtn">Lọc</button>
+      <label class="search">
+         Tìm kiếm:
+         <input type="text" id="search" placeholder="Tìm kiếm..." style="flex:1" />
+      </label>
+   </div>
+
+   <main class="wrap">
+      <button class="nav-btn prev-btn">⟨</button>
+      <button class="nav-btn next-btn">⟩</button>
+      <div id="app"></div>
+   </main>
+   <script src="gramData.js"></script>
+   <script src="index.js"></script>
+</body>
+
+</html>
