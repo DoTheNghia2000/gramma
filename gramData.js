@@ -524,4 +524,170 @@ const grammarData = [
       ],
       tip: "代わりに = 'thay cho / đổi lại'."
    },
+   {
+      title: "ためだ・ために (tame da / tame ni)",
+      badges: ["JLPT N3", "Vì / Do / Để"],
+      meaning: "Diễn tả nguyên nhân, lý do (do ~ nên) hoặc mục đích (để ~).",
+      keywords: ["vì", "do", "bởi vì", "để"],
+      structure: [
+         "Vる / Vた ＋ ため（に）",
+         "N の ＋ ため（に）",
+         "Aな ＋ ため（に）"
+      ],
+      examples: [
+         { jp: "大雨のために、試合は中止になった。", vi: "Vì mưa lớn nên trận đấu bị hoãn." },
+         { jp: "健康のために、毎日運動しています。", vi: "Tôi tập thể dục hằng ngày để tốt cho sức khỏe." },
+         { jp: "静かなために、よく眠れました。", vi: "Vì yên tĩnh nên tôi ngủ ngon." }
+      ],
+      compare: [
+         "Giống với ので nhưng trang trọng hơn.",
+         "Khác với ように: ために thiên về mục đích rõ ràng."
+      ],
+      tip: "Nghĩ ために = 'do ~ nên' hoặc 'để ~'."
+   },
+   {
+      title: "によって・による (ni yotte / ni yoru)",
+      badges: ["JLPT N3", "Bởi / Tùy vào / Vì"],
+      meaning: "Diễn tả phương thức, tác nhân, nguyên nhân hoặc sự thay đổi tùy đối tượng.",
+      keywords: ["bởi", "do", "tùy vào", "bằng cách"],
+      structure: [
+         "N ＋ によって",
+         "N ＋ による N"
+      ],
+      examples: [
+         { jp: "この絵は有名な画家によって描かれました。", vi: "Bức tranh này được vẽ bởi một họa sĩ nổi tiếng." },
+         { jp: "結果は努力によるものだ。", vi: "Kết quả là nhờ nỗ lực mà có." }
+      ],
+      compare: [
+         "に = bởi (hành động cụ thể); によって = bởi (tác nhân rộng hơn, trừu tượng)."
+      ],
+      tip: "により = cách viết trang trọng của によって."
+   },
+   {
+      title: "から・ことから (kara / koto kara)",
+      badges: ["JLPT N3", "Vì / Do / Từ việc"],
+      meaning: "Diễn tả nguyên nhân, lý do dựa trên một sự thật, hoặc xuất phát điểm.",
+      keywords: ["vì", "do", "từ việc", "bắt nguồn từ"],
+      structure: [
+         "V普通形 ＋ ことから",
+         "N ＋ から"
+      ],
+      examples: [
+         { jp: "富士山が見えることから、この町は観光客に人気だ。", vi: "Vì có thể nhìn thấy núi Phú Sĩ nên thị trấn này nổi tiếng với khách du lịch." },
+         { jp: "日本に行ったことから、日本語を勉強し始めた。", vi: "Vì đã đi Nhật nên tôi bắt đầu học tiếng Nhật." }
+      ],
+      compare: [
+         "から = nguyên nhân trực tiếp, đơn giản; ことから = nguyên nhân dựa trên sự thật, lý luận."
+      ]
+   },
+   {
+      title: "おかげだ・おかげで・せいだ・せいで (okage da / seida)",
+      badges: ["JLPT N3", "Nhờ / Tại vì"],
+      meaning: "Dùng để diễn tả nguyên nhân dẫn đến kết quả tốt (おかげで) hoặc xấu (せいで).",
+      keywords: ["nhờ", "may mà", "tại vì", "do"],
+      structure: [
+         "N の ＋ おかげで／せいで",
+         "V普通形 ＋ おかげで／せいで"
+      ],
+      examples: [
+         { jp: "友達のおかげで、宿題が早く終わった。", vi: "Nhờ bạn mà tôi làm xong bài tập sớm." },
+         { jp: "雨が降ったせいで、試合は中止になった。", vi: "Tại mưa nên trận đấu bị hoãn." }
+      ],
+      compare: [
+         "おかげで = kết quả tốt, せいで = kết quả xấu."
+      ]
+   },
+   {
+      title: "のだから (no dakara)",
+      badges: ["JLPT N3", "Bởi vì / Đương nhiên"],
+      meaning: "Diễn tả lý do rõ ràng, người nghe cũng nên hiểu, thường dùng để nhấn mạnh hoặc giải thích.",
+      keywords: ["bởi vì", "đương nhiên"],
+      structure: [
+         "V普通形 ＋ のだから",
+         "Aい／Aな／N ＋ のだから"
+      ],
+      examples: [
+         { jp: "子供なのだから、できなくても仕方がない。", vi: "Vì là trẻ con nên không làm được cũng là chuyện đương nhiên." },
+         { jp: "明日は休みなのだから、ゆっくり休んでください。", vi: "Ngày mai là ngày nghỉ nên cứ từ từ nghỉ ngơi đi." }
+      ]
+   },
+   {
+      title: "（の）なら (nara)",
+      badges: ["JLPT N3", "Nếu / Trong trường hợp"],
+      meaning: "Dùng khi dựa vào điều kiện/giả định đã biết từ trước để đưa ra phản ứng, ý kiến.",
+      keywords: ["nếu", "giả sử", "trong trường hợp"],
+      structure: [
+         "N ＋ なら",
+         "V普通形／Aい／Aな ＋ のなら"
+      ],
+      examples: [
+         { jp: "日本に行くなら、京都に行ったほうがいいよ。", vi: "Nếu đi Nhật thì nên đến Kyoto." },
+         { jp: "君が行くのなら、私も行きます。", vi: "Nếu cậu đi thì tớ cũng đi." }
+      ]
+   },
+   {
+      title: "ては・（の）では (te wa / no dewa)",
+      badges: ["JLPT N3", "Nếu ~ thì (kết quả xấu)"],
+      meaning: "Dùng khi muốn diễn tả giả định về tình huống không tốt, dẫn đến kết quả tiêu cực.",
+      keywords: ["nếu mà", "trong trường hợp mà", "không ổn"],
+      structure: [
+         "Vて ＋ は",
+         "N／Aな ＋ では"
+      ],
+      examples: [
+         { jp: "そんなに遊んでばかりいては、試験に合格できない。", vi: "Nếu chỉ toàn chơi như thế thì không thể đậu kỳ thi." },
+         { jp: "証拠がなければ、彼を捕まえるのでは無理だ。", vi: "Nếu không có bằng chứng thì không thể bắt anh ta." }
+      ]
+   },
+   {
+      title: "さえ～ば・さえ～なら (sae ~ ba / sae ~ nara)",
+      badges: ["JLPT N3", "Chỉ cần ~ thì"],
+      meaning: "Diễn tả điều kiện tối thiểu, chỉ cần A thì B cũng đủ.",
+      keywords: ["chỉ cần", "miễn là"],
+      structure: [
+         "N ＋ さえ ＋ Vば",
+         "Vます bỏ ます ＋ さえすれば",
+         "Aな／N でさえあれば"
+      ],
+      examples: [
+         { jp: "君さえいれば、何もいらない。", vi: "Chỉ cần có em thì không cần gì nữa." },
+         { jp: "勉強しさえすれば、合格できます。", vi: "Chỉ cần học thì có thể đỗ." },
+         { jp: "健康でさえあれば、何でもできる。", vi: "Chỉ cần khỏe mạnh thì làm gì cũng được." }
+      ]
+   },
+   {
+      title: "たとえ～ても・たとえ～でも (tatoe ~ temo / tatoe ~ demo)",
+      badges: ["JLPT N3", "Cho dù / Dẫu cho"],
+      meaning: "Diễn tả điều kiện giả định, cho dù xảy ra thì kết quả vẫn không đổi.",
+      keywords: ["cho dù", "dẫu cho", "ngay cả khi"],
+      structure: [
+         "たとえ Vて ＋ も",
+         "たとえ Aくて ＋ も",
+         "たとえ N／Aな ＋ でも"
+      ],
+      examples: [
+         { jp: "たとえ雨が降っても、試合は行います。", vi: "Cho dù trời mưa thì trận đấu vẫn diễn ra." },
+         { jp: "たとえ忙しくても、運動する時間を作ります。", vi: "Cho dù bận đến đâu tôi cũng dành thời gian tập thể dục." },
+         { jp: "たとえ子供でも、この問題は解ける。", vi: "Ngay cả là trẻ con cũng giải được bài này." }
+      ]
+   },
+   {
+      title: "ば・たら・なら (ba / tara / nara)",
+      badges: ["JLPT N3", "Nếu / Khi"],
+      meaning: "Các cách diễn đạt điều kiện: ば (giả định logic), たら (điều kiện thực tế), なら (điều kiện dựa trên thông tin).",
+      keywords: ["nếu", "khi", "giả sử"],
+      structure: [
+         "Vば",
+         "Vたら",
+         "Nなら"
+      ],
+      examples: [
+         { jp: "勉強すれば、合格できます。", vi: "Nếu học thì có thể đỗ." },
+         { jp: "雨が降ったら、出かけません。", vi: "Nếu trời mưa thì tôi sẽ không ra ngoài." },
+         { jp: "彼なら知っているはずだ。", vi: "Nếu là anh ấy thì chắc chắn biết." }
+      ],
+      compare: [
+         "ば = giả định có tính logic; たら = điều kiện có khả năng xảy ra; なら = dựa trên tình huống đã biết."
+      ]
+   },
 ];
